@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="40dp"
+    android:viewportWidth="200"
+    android:viewportHeight="40">
+
+    <!-- "Gradintel" text represented as a branded bar -->
+    <path
+        android:fillColor="#818cf8"
+        android:fillAlpha="0.15"
+        android:pathData="M0,16 Q100,0 200,16 L200,24 Q100,40 0,24 Z"/>
+
+    <path
+        android:strokeColor="#818cf8"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.4"
+        android:pathData="M20,20 L180,20"/>
+
+    <path
+        android:fillColor="#818cf8"
+        android:pathData="M97,16 A4,4 0 1,1 103,16 A4,4 0 1,1 97,16 Z"/>
+
+</vector>

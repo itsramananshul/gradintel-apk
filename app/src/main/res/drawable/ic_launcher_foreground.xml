@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Padding layer for adaptive icon safe zone -->
+    <group android:translateX="14" android:translateY="14">
+
+        <!-- Bar 1 -->
+        <path android:fillColor="#818cf8" android:fillAlpha="0.5"
+            android:pathData="M4,48 L12,48 Q14,48 14,50 L14,76 Q14,78 12,78 L4,78 Q2,78 2,76 L2,50 Q2,48 4,48 Z"/>
+
+        <!-- Bar 2 -->
+        <path android:fillColor="#818cf8" android:fillAlpha="0.6"
+            android:pathData="M16,38 L24,38 Q26,38 26,40 L26,76 Q26,78 24,78 L16,78 Q14,78 14,76 L14,40 Q14,38 16,38 Z"/>
+
+        <!-- Bar 3 -->
+        <path android:fillColor="#818cf8" android:fillAlpha="0.75"
+            android:pathData="M28,24 L36,24 Q38,24 38,26 L38,76 Q38,78 36,78 L28,78 Q26,78 26,76 L26,26 Q26,24 28,24 Z"/>
+
+        <!-- Bar 4 -->
+        <path android:fillColor="#818cf8" android:fillAlpha="0.87"
+            android:pathData="M40,30 L48,30 Q50,30 50,32 L50,76 Q50,78 48,78 L40,78 Q38,78 38,76 L38,32 Q38,30 40,30 Z"/>
+
+        <!-- Bar 5 -->
+        <path android:fillColor="#818cf8"
+            android:pathData="M52,16 L60,16 Q62,16 62,18 L62,76 Q62,78 60,78 L52,78 Q50,78 50,76 L50,18 Q50,16 52,16 Z"/>
+
+        <!-- Diamond -->
+        <path android:fillColor="#818cf8" android:fillAlpha="0.15"
+            android:pathData="M40,4 L72,16 L40,28 L8,16 Z"/>
+        <path android:fillColor="none" android:strokeColor="#818cf8" android:strokeWidth="2"
+            android:pathData="M40,4 L72,16 L40,28 L8,16 Z"/>
+
+        <!-- Center gem dot -->
+        <path android:fillColor="#a5b4fc"
+            android:pathData="M43,16 A3,3 0 1,1 37,16 A3,3 0 1,1 43,16 Z"/>
+
+    </group>
+</vector>

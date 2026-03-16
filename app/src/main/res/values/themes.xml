@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Gradintel" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#818cf8</item>
+        <item name="colorPrimaryVariant">#6366f1</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <item name="colorSecondary">#f472b6</item>
+        <item name="colorOnSecondary">#ffffff</item>
+        <item name="android:windowBackground">#07070e</item>
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:navigationBarColor">#07070e</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="29">false</item>
+        <item name="android:enforceNavigationBarContrast" tools:targetApi="29">false</item>
+    </style>
+
+    <style name="Theme.Gradintel.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#07070e</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Gradintel</item>
+        <item name="android:windowBackground">#07070e</item>
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:navigationBarColor">#07070e</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>

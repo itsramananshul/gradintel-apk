@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="88dp"
+    android:height="88dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Background rounded rect -->
+    <path
+        android:fillColor="#0d0d1f"
+        android:pathData="M22,0 L78,0 Q100,0 100,22 L100,78 Q100,100 78,100 L22,100 Q0,100 0,78 L0,22 Q0,0 22,0 Z"/>
+
+    <!-- Bar 1 -->
+    <path
+        android:fillColor="#818cf8"
+        android:fillAlpha="0.5"
+        android:pathData="M12,66 L22,66 Q25,66 25,69 L25,88 Q25,91 22,91 L12,91 Q9,91 9,88 L9,69 Q9,66 12,66 Z"/>
+
+    <!-- Bar 2 -->
+    <path
+        android:fillColor="#818cf8"
+        android:fillAlpha="0.6"
+        android:pathData="M25,54 L35,54 Q38,54 38,57 L38,88 Q38,91 35,91 L25,91 Q22,91 22,88 L22,57 Q22,54 25,54 Z"/>
+
+    <!-- Bar 3 -->
+    <path
+        android:fillColor="#818cf8"
+        android:fillAlpha="0.75"
+        android:pathData="M38,38 L48,38 Q51,38 51,41 L51,88 Q51,91 48,91 L38,91 Q35,91 35,88 L35,41 Q35,38 38,38 Z"/>
+
+    <!-- Bar 4 -->
+    <path
+        android:fillColor="#818cf8"
+        android:fillAlpha="0.85"
+        android:pathData="M51,46 L61,46 Q64,46 64,49 L64,88 Q64,91 61,91 L51,91 Q48,91 48,88 L48,49 Q48,46 51,46 Z"/>
+
+    <!-- Bar 5 (tallest) -->
+    <path
+        android:fillColor="#818cf8"
+        android:pathData="M64,28 L74,28 Q77,28 77,31 L77,88 Q77,91 74,91 L64,91 Q61,91 61,88 L61,31 Q61,28 64,28 Z"/>
+
+    <!-- Diamond / gem shape (top highlight) -->
+    <path
+        android:fillColor="#0d0d1f"
+        android:strokeColor="#818cf8"
+        android:strokeWidth="2.5"
+        android:pathData="M50,10 L82,24 L50,38 L18,24 Z"/>
+
+    <!-- Inner diamond fill -->
+    <path
+        android:fillColor="#818cf8"
+        android:fillAlpha="0.1"
+        android:pathData="M50,10 L82,24 L50,38 L18,24 Z"/>
+
+    <!-- Center dot glow -->
+    <path
+        android:fillColor="#818cf8"
+        android:pathData="M54,24 A4,4 0 1,1 46,24 A4,4 0 1,1 54,24 Z"/>
+
+</vector>
