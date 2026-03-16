@@ -31,7 +31,7 @@
         <!-- Diamond -->
         <path android:fillColor="#818cf8" android:fillAlpha="0.15"
             android:pathData="M40,4 L72,16 L40,28 L8,16 Z"/>
-        <path android:fillColor="none" android:strokeColor="#818cf8" android:strokeWidth="2"
+        <path android:fillColor="#00000000" android:strokeColor="#818cf8" android:strokeWidth="2"
             android:pathData="M40,4 L72,16 L40,28 L8,16 Z"/>
 
         <!-- Center gem dot -->
