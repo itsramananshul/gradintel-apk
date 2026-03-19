@@ -40,6 +40,4 @@ The full Gradintel experience is available at  [gradintel.anshulraman.com](https
 
 ---
 
-© 2026 Anshul Raman. All rights reserved.
-
-This project is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) — you may not use, reproduce, or distribute this work commercially or in modified form without explicit written permission from the author.
+© 2026 Anshul Raman. 
